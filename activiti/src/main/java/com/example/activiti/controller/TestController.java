@@ -14,5 +14,6 @@ public class TestController {
     @RequestMapping("/test")
     public void test(HttpServletRequest request){
         System.out.println("success"+request.getSession().getMaxInactiveInterval());
+        System.out.println("HelloWorld");
     }
 }
